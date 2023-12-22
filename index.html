@@ -1,92 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tere App</title>
     <link rel="shortcut icon" href="App-folder/Images/tere-logo.png" type="png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <nav class="navbar navbar-expand-lg" style="height: 174px;">
     <div class="container-fluid">
-      <img src="App-folder/Images/tere-logo.png" alt="">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <img src="App-folder/Images/tere-logo.png" alt="" style="margin-left: 50px;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     </div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 tere-nav">
+            <li class="nav-item nav-links-home">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item nav-links">
+                <a class="nav-link" href="#">How tere works</a>
+            </li>
+            <li class="nav-item nav-links">
+                <a class="nav-link" href="#">Tere benefits</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-success nav-btn"> Help Center</button>
+            </li>
+        </ul>
     </div>
-  </nav>
+    </div>
+</nav>
 
 
-<body>
+<body style="background-color: #f8f8ffdb;">
     <div class="container" style="margin-left: 50px;">
         <div class="row  my-container">
-          <div class="col-4 col-md-6 ">
-            <div class="lef-section">
-              <div class="h1-theme h1">
-                DOWNLOAD APP,
-                SAVE MONEY, MAKE
-                FRIENDS!
-              </div>
-              <div class="p-theme">
-                <p class="p-text">Its simple and its free. Play your part in reducing Carbon Footprint and help
-                  Mother
-                  Nature to sustain its beauty. So what are you waiting for ?
-                  Lets ride together</p>
-              </div>
-              <div class="row">
-                <!-- <div class="btn-img">
-                  <div class="img-fluid">
-                    <img src="pages-work/Images/download-btn-2.png" alt="">
-                  </div>
-                  <div class="img-fluid">
-                    <img src="pages-work/Images/download-btn.png" alt="" style="margin-left: 30px;">
-                  </div>
-                </div> -->
-                <div class="btns">
-                  <img src="App-folder/Images/download-btn-2.png" alt="">
-                  <img src="App-folder/Images/download-btn.png" alt="" style="margin-left: 30px;">
+            <div class="col-4 col-md-6 ">
+                <div class="lef-section">
+                    <div class="h1-theme h1">
+                        DOWNLOAD APP,
+                        SAVE MONEY, MAKE
+                        FRIENDS!
+                    </div>
+                    <div class="p-theme">
+                        <p class="p-text">Its simple and its free. Play your part in reducing Carbon Footprint and help
+                            Mother
+                            Nature to sustain its beauty. So what are you waiting for ?
+                            Lets ride together</p>
+                    </div>
+                    <div class="row">
+                        <div class="btns img-fluid">
+                            <img src="App-folder/Images/download-btn-2.png" alt="">
+                            <img src="App-folder/Images/download-btn.png" alt="" style="margin-left: 30px;">
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="col-4 col-md-6">
-            <div class="right-section">
-              <div class="img-fluid right-sec-img">
-                <img src="App-folder/Images/right-section-img.png" alt="">
-              </div>
+            <div class="col-4 col-md-6">
+                <div class="right-section">
+                    <div class="img-fluid right-sec-img">
+                        <img src="App-folder/Images/right-section-img.png" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+
+    <!-- card -->
+    <div class="container">
+        <div class="card mb-3 app-card">
+            <div class="card-form">
+                <div class="row">
+                    <div class="card-body col-12 col-md-4">
+                        <h5 class="h1 card-h1">Let’s go. Get a link
+                            to download the app.</h5>
+                    </div>
+                    <div class="card-body col-12 col-md-8">
+                        <form class="d-flex form-card" role="search">
+                            <input class="form-control me-2 card-search" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-dark card-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- steps section -->
+    <div class="container steps-container">
+        <center>
+            <div class="steps">
+                <h1 class="h1 steps-head">HOW <span style="color: #75bf7a;">TERE</span> WORKS</h1>
+                <P class="page-item steps-p">Download and install the tere app. Enter your phone number and make your
+                    user account. when approved you may start driving.</P>
+            </div>
+        </center>
+
+        <div class="row desktop-display">
+            <div class="col-4 steps-left-section">
+                <div>
+                    <div class="card steps-card" style="height: 18rem; background-color: #f8f8ffdb; align-items: end;">
+                        <img src="App-folder/Images/small circle (1).png" class="card-img-top number-icon" alt="...">
+                        <h6 class="h6">1</h6>
+                        <div class="card-body">
+                            <h5 class="card-title">REQUEST A RIDE</h5>
+                            <p class="card-text">Have to reach office or going for shopping ?
+                                Just put your current location and destination and search a ride that suits you</p>
+                        </div>
+                    </div>
+                    <div class="card steps-card"
+                        style="margin-top: 30px; height: 18rem;background-color: #f8f8ffdb; align-items: end;">
+                        <img src="App-folder/Images/small circle (1).png" class="card-img-top number-icon" alt="...">
+                        <h6 class="h6">3</h6>
+                        <div class="card-body">
+                            <h5 class="card-title">INSTANT NOTIFICATIONS</h5>
+                            <p class="card-text">Get instant notifications for your rides and be in contact with fellow
+                                riders all the time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4 big-circle-main">
+                <div class="big-circle">
+                    <img src="App-folder/Images/bigcircle.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+
+
+            <div class="col-4 steps-right-section">
+                <div>
+                    <div class="card steps-card" style="height: 18rem;background-color: #f8f8ffdb;">
+                        <img src="App-folder/Images/small circle (1).png" class="card-img-top number-icon" alt="...">
+                        <h6 class="h6">2</h6>
+                        <div class="card-body">
+                            <h5 class="card-title">POST A RIDE</h5>
+                            <p class="card-text">Going somewhere but hate to travel alone -
+                                just post your ride details and publish it</p>
+                        </div>
+                    </div>
+                    <div class="card steps-card" style="margin-top: 30px; height: 18rem; background-color: #f8f8ffdb;">
+                        <img src="App-folder/Images/small circle (1).png" class="card-img-top number-icon" alt="...">
+                        <h6 class="h6">4</h6>
+                        <div class="card-body">
+                            <h5 class="card-title">CASHLESS PAYMENT</h5>
+                            <p class="card-text">Payment made easy by using your own Wallet - no more cash to carry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mobile display -->
+    <div class="container mobile-circle">
+        <img class="circle" src="App-folder/Images/bigcircle.png" alt="">
+        <img class="mobile" src="App-folder/Images/Mobile.png" alt="">
+    </div>
+    <div class="mobile-steps">
+        <div class="col-12">
+            <div class="card mobile-card">
+                <img src="App-folder/Images/small circle (1).png" class="card-mobile-img" alt="...">
+                <h6 class="h6 card-mobile-num">1</h6>
+                <div class="card-body">
+                    <h5 class="mobile-card-title">REQUEST A RIDE</h5>
+                    <p class="mobile-card-text">Have to reach office or going for shopping ?
+                        Just put your current location and destination and search a ride that suits you</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card mobile-card">
+                <img src="App-folder/Images/small circle (1).png" class="card-mobile-img" alt="...">
+                <h6 class="h6 card-mobile-num">2</h6>
+                <div class="card-body">
+                    <h5 class="mobile-card-title">POST A RIDE</h5>
+                    <p class="mobile-card-text">Going somewhere but hate to travel alone -
+                        just post your ride details and publish it</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card mobile-card">
+                <img src="App-folder/Images/small circle (1).png" class="card-mobile-img" alt="...">
+                <h6 class="h6 card-mobile-num">3</h6>
+                <div class="card-body">
+                    <h5 class="mobile-card-title">INSTANT NOTIFICATIONS</h5>
+                    <p class="mobile-card-text">Get instant notifications for your rides and be in contact with fellow
+                        riders all the time</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card mobile-card">
+                <img src="App-folder/Images/small circle (1).png" class="card-mobile-img" alt="...">
+                <h6 class="h6 card-mobile-num">4</h6>
+                <div class="card-body">
+                    <h5 class="mobile-card-title">CASHLESS PAYMENT</h5>
+                    <p class="mobile-card-text">Payment made easy by using your own Wallet - no more cash to carry</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tere Benefits desktop display-->
+    <div class="container">
+        <CENter>
+            <div class="steps" style="margin: 50px auto;">
+                <h1 class="h1 steps-head"><span style="color: #75bf7a;">TERE</span> BENEFITS</h1>
+            </div>
+        </CENter>
+        <div class="benefits-desktop">
+            <div class="col-11">
+                <div class="card w-100 mb-3" style="border-radius: 10px;">
+                    <div class="row card-body">
+                        <div class="col-6" style="margin: auto;">
+                            <div class="benefits-title">
+                                <h1>01.</h1>
+                                <p>Flexible working hours</p>
+                            </div>
+                            <p class="card-text card-benefits-text">You can decide when, and how much time you want to
+                                drive.</p>
+                        </div>
+                        <div class="col-4" style="text-align: end;">
+                            <img src="App-folder/Images/benefit-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11" style="margin-left: 120px; margin-top: 60px; margin-bottom: 60px;">
+                <div class="card w-100 mb-3 benefits-theme" style="border-radius: 10px;">
+                    <div class="row card-body">
+                        <div class="col-4" style="text-align: end;">
+                            <img src="App-folder/Images/benefit-2.png" alt="">
+                        </div>
+                        <div class="col-6" style="margin: auto;">
+                            <div class="benefits-title">
+                                <h1>02.</h1>
+                                <p>Earnings</p>
+                            </div>
+                            <p class="card-text card-benefits-text">By driving with tere you can
+                                earn more.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-11">
+                <div class="card w-100 mb-3 benefits-theme" style="border-radius: 10px;">
+                    <div class="row card-body">
+                        <div class="col-6" style="margin: auto;">
+                            <div class="benefits-title">
+                                <h1>03.</h1>
+                                <p>Customer
+                                    support 24/7</p>
+                            </div>
+                            <p class="card-text card-benefits-text">Tere is a local service provider and we are proud to
+                                support you in your local language. We are proud to be at your service 24/7!</p>
+                        </div>
+                        <div class="col-4" style="text-align: end;">
+                            <img src="App-folder/Images/benefit-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <!-- <div class="container"> -->
+            <div class="row footer-display">
+                <div class="col-3" style="padding-left: 90px ;">
+                    <div class="footer-logo">
+                        <img src="App-folder/Images/footer-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-info" style="width: 300px;">
+                        <h4 class="h4">Be Our Friend</h4>
+                        <p style="color: #9E9DA2;">3 Season Park, Jakarta <br>
+                        support@tereapp.id <br>
+                        021 - 111 - 2222</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-btn">
+                        <img src="App-folder/Images/download-btn-2.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="footer-btn">
+                        <img src="App-folder/Images/download-btn.png" alt="">
+                    </div>
+                </div>
+            
+            <hr>
+        <!-- </div> -->
+<p class="footer-rights" style="margin-top: 30px;">All Rights Reserved tere by Codematics 2022</p></div>
+    </footer>
+
 </body>
+
+
 </html>
