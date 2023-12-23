@@ -176,7 +176,7 @@
 }
 
 .steps {
-    width: 620px;
+    width: 580px;
     margin-bottom: 80px;
     padding: 20px;
 }
@@ -299,8 +299,6 @@ footer {
 
 
 
-
-
 @media only screen and (min-width:850px) {
     .mobile-circle {
         display: none;
@@ -309,8 +307,10 @@ footer {
     .mobile-steps {
         display: none;
     }
+    .mobile-benefits{
+        display: none;
+    }
 }
-
 
 
 @media only screen and (max-width:850px) {
@@ -352,10 +352,8 @@ footer {
     }
 
     footer {
-        display: none;
-        /* flex-direction: column;
-        align-items: center;
-        justify-content: center; */
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -430,5 +428,9 @@ footer {
 
     .btns {
         margin-left: -55px;
+    }
+    .steps-head{
+        font-size: 34px;
+        text-align: center;
     }
 }
